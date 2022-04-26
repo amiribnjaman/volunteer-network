@@ -1,4 +1,4 @@
-.banner-img {
+.banner-section {
     position: absolute;
     top: 0;
     z-index: -100;
@@ -7,5 +7,10 @@
     width: 100% !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background: linear-gradient(rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.86)), url('../../../Assets/Img/banner.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../../../Assets/Img/banner.png');
+    height: 496px;
+}
+
+.banner-section h1 {
+    font-family: 'Montserrat', sans-serif;
 }
