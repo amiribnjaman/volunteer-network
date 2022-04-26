@@ -1,0 +1,11 @@
+.banner-img {
+    position: absolute;
+    top: 0;
+    z-index: -100;
+    text-align: center;
+    padding: 130px 0px;
+    width: 100% !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background: linear-gradient(rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.86)), url('../../../Assets/Img/banner.png');
+}
